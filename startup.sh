@@ -1,2 +1,1 @@
-cd src
-uvicorn prog:app
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker prog:app
