@@ -75,4 +75,5 @@ jobs:
         with:
           app-name: 'test-conneciton'
           slot-name: 'Production'
+          package: './src'
           
