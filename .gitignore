@@ -57,3 +57,4 @@ dockerfiles/aws/.kube
 
 .vscode/settings.json
 .vscode/*.py
+.venv
